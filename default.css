@@ -1,0 +1,29 @@
+body{
+    background-color:pink;
+  background-image: url(graphics/baby.jpeg);
+    background-repeat: no-repeat;
+}
+
+p{
+    color:blue;
+    font-size: 16px;
+}
+
+hr{
+    color: purple;
+    height: 10px;
+    width: 50%;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pic1{
+    position: absolute; top: 50 px; left: 200px; 
+    background-color: blueviolet;
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+}
