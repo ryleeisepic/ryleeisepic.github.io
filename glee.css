@@ -1,0 +1,259 @@
+body{
+    background-color: #f24929;
+}
+
+.center-image {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    width: 300px;
+    height: auto;
+}
+
+.center-image img {
+    width: 100%;
+    height: auto;
+}
+
+.p1{
+    font-size: 55px;
+    font-family: 'ITC Avant Garde Gothic Medium', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    margin: 30px 0;
+}
+
+
+
+
+
+
+.second-image {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    width: 600px;
+
+    border: 2px black solid;
+    padding: 25px 25px 25px 10px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.second-image {
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    width: 600px;
+}
+
+.second-image img {
+    width: 400px;
+    height: auto;
+    margin-left: 0 px;
+}
+
+.second-image p {
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+}
+
+
+
+
+
+
+.third-image {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    width: 600px;
+
+    border: 2px black solid;
+    padding: 25px 25px 25px 10px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.third-image {
+    position: absolute;
+    left:auto;
+    right: 30px;
+    top: 35%;
+    flex-direction: row-reverse;
+}
+
+.third-image img {
+    width: 400px;
+    height: auto;
+    margin-right: 0 px;
+}
+
+.third-image p {
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+}
+
+
+
+
+.fourth-image {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 900px;
+    left: 30px;
+    width: 600px;
+    border: 2px black solid;
+    padding: 25px 25px 25px 10px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.fourth-image img {
+    width: 400px;
+    height: auto;
+}
+
+.fourth-image p {
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+}
+
+
+
+
+.fifth-image {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: absolute;
+    flex-direction: row-reverse;
+    top: 960px;
+    right: 30px;
+    width: 600px;
+    border: 2px black solid;
+    padding: 25px 25px 25px 10px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+}
+
+
+.fifth-image img {
+    width: 300px;
+    height: auto;
+}
+
+.fifth-image p {
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+
+}
+
+
+
+
+.sixth-image {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   position: absolute;
+   top: 1550px;
+   left: 30px;
+   width: 600px;
+   border: 2px black solid;
+   padding: 25px;
+   background-color: white;
+   border-radius: 12px;
+   box-shadow: 5px 5px 0px black;
+}
+
+.sixth-image img {
+    width: 300px;
+    height: auto;
+}
+
+.sixth-image p {
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+}
+
+.rachel-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 1600px;
+    right: 30px;
+    width: 600px;
+    border: 2px black solid;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.rachel-box img {
+    width: 350px;
+    height: auto;
+}
+
+.rachel-box p{
+    font-size: 20px;
+    font-family: 'ITC Avant Garde Gothic Medium';
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+}
+
+
+.second-image img,
+.third-image img,
+.fourth-image img,
+.fifth-image img,
+.sixth-image img,
+.rachel-box img {
+    transition: transform 0.2s ease;
+}
+
+.second-image img:hover,
+.third-image img:hover,
+.fourth-image img:hover,
+.fifth-image img:hover,
+.sixth-image img:hover,
+.rachel-box img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
